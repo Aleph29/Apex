@@ -21,6 +21,11 @@ If you don't have PostgresSQL in you computer, you can use the link above to dow
 
 
 ## Step 3
+### Download the video you want to edit. 
+
+Download the video you want to edit into multiple one minute clips and save it in the same folder as your python script.
+
+## Step 4
 ### Create a Configuration file, with the Database and Video details.
 
 Include the PostgresSQL Database details into a config file, in this case `config.yml`. You will need to update the details of your Database in this config file.
