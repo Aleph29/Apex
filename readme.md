@@ -13,20 +13,17 @@ You can use the following code to install these modules:<br>
 `pip install psycopg2 moviepy pyyaml`
 
 
-- - -
 ## Step 2
 ### Create your PostgresSQL Database if you haven't already.
 
 You will need to create a [PostgresSQL](https://www.postgresql.org/ "PostgresSQL Website").
-If you don't have PostgresSQL in you computer, please follow these steps
-Download PstgresSQL on your computer, and create a Database.
+If you don't have PostgresSQL in you computer, you can use the link above to download it.
 
-- - -
 
 ## Step 3
 ### Create a Configuration file, with the Database and Video details.
 
-Include the PostgresSQL Database details into a config file, in this case `config.yml`.
+Include the PostgresSQL Database details into a config file, in this case `config.yml`. You will need to update the details of your Database in this config file.
 
 `postgresql:`<br>
   &nbsp;&nbsp;`dbname: mydatabase`<br>
